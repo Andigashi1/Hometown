@@ -1,0 +1,107 @@
+*{
+    margin: 0;
+    text-align: center;   
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+}
+
+#hero{
+    height: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-image: url("https://elitetravel.al/wp-content/uploads/2020/10/Prizreni.jpg");
+    background-size:cover;
+    color: white;
+}
+
+#title{
+    padding: 6px 12px;
+    margin: 0 0 20px;
+    background: #251F47;
+    border: 1px solid #251F47;
+    border-radius: 5px;
+}
+
+#hero-subtitle{
+    padding: 6px 12px;
+    background: #404E7C;
+    border: 1px solid #404E7C;
+    border-radius: 5px;
+    width: 400px;
+}
+
+#activities{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 500px;
+    color: #260F26;
+    background: #F1FAEE;
+}
+
+#activities-title{
+    margin: 0 0 40px;
+}
+
+#cards{
+    width: 1200px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.card{
+    width: 240px;
+    border-radius: 5px;
+}
+
+.image{
+    width: 100px;
+    height: 100px;
+    border-radius:50% ;
+}
+
+.subtitle{
+    margin: 15px;
+}
+
+.description{
+    margin: 10px;
+}
+
+#guide{
+    display: flex;
+    width: 420px;
+    justify-content: space-around;
+    align-items: center;
+    margin: 100px auto;
+    padding: 20px 20px 18px;
+    background: #404E7C;
+    border-bottom: 6px solid #251F47;
+    border-radius: 12px;
+    color: #260F26;
+}
+
+#about{
+    width: 200px;
+}
+
+#about p{
+ margin: 8px 0;
+}
+
+#profile{
+    width: 150px;
+    border-radius: 12px;
+}
+
+#footer{
+    padding: 20px 0;
+    background: #404E7C;
+}
+
+a{
+    color: black;
+}
